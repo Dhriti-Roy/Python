@@ -91,7 +91,7 @@ view_menu.add_checkbutton(label='Tool Bar', image=tool_bar_icon, compound=tk.LEF
 view_menu.add_checkbutton(label='Status Bar', image=status_bar_icon, compound=tk.LEFT)
 main_menu.add_cascade(label='View', menu=view_menu)
 
-#  COLOR THEME ********************************************************
+#  COLOR THEME 
 
 light_default_icon = tk.PhotoImage(file='icons2/light_default.png')
 light_plus_icon = tk.PhotoImage(file='icons2/light_plus.png')
