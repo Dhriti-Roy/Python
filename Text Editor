@@ -44,6 +44,8 @@ font_box.grid(row=0, column=0, padx=5)
 # save_as_icon = tk.PhotoImage(file='icons2/save_as.png')
 exit_icon = tk.PhotoImage(file='icons2/exit.png')
 
+# file functionality
+
 # FILE MENU 
 file_menu= tk.Menu(main_menu,tearoff=0)
 file_menu.add_command(label='New File' , command=func , accelerator='Ctrl+N' )
