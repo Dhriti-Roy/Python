@@ -58,4 +58,23 @@ font_tuple = tk.font.families()
 font_family = tk.StringVar()
 font_box = ttk.Combobox(tool_bar,width=30, textvariable=font_family, state='readonly')
 font_box['values'] = font_tuple
-font_box.current(font_tuple
+font_box.current(font_tupleimport tkinter as tk
+from tkinter import ttk
+win = tk.Tk()
+win.title('Menubar')
+
+def func():
+    print('func called')
+
+def aboutus():
+    print('Developer- Dhriti Roy')
+    print('Program Type- "Menubar"')
+
+#                                                   MENU >>
+
+main_menu = tk.Menu(win)
+
+file_menu= tk.Menu(main_menu,tearoff=0)
+file_menu.add_command(label='New File', command=func)
+file_menu.add_command(label='New Window', command=func)
+file_menu.add_separator
